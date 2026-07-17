@@ -1,0 +1,9 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="112" fill="#FF9F43"/>
+  <text x="256" y="200" font-size="120" font-weight="bold" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif">识字</text>
+  <text x="256" y="340" font-size="120" font-weight="bold" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif">游戏</text>
+  <circle cx="120" cy="120" r="20" fill="white" opacity="0.4"/>
+  <circle cx="392" cy="120" r="16" fill="white" opacity="0.3"/>
+  <circle cx="120" cy="392" r="16" fill="white" opacity="0.3"/>
+  <circle cx="392" cy="392" r="20" fill="white" opacity="0.4"/>
+</svg>
