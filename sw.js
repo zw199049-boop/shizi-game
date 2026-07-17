@@ -1,10 +1,9 @@
 const CACHE_NAME = '识字游戏-v1';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icon.svg',
-  '/favicon.svg',
+  './',
+  './index.html',
+  './manifest.json',
+  './icon.svg',
 ];
 
 // 安装时缓存核心资源
@@ -49,7 +48,7 @@ self.addEventListener('fetch', (event) => {
         .catch(() => {
           // 离线时返回首页
           if (event.request.mode === 'navigate') {
-            return caches.match('/index.html');
+            return caches.match('./index.html');
           }
         });
     })
